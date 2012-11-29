@@ -1,0 +1,59 @@
+{"ts":1354229286009,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":true,"ts":1354229484883,"patch":[[{"diffs":[[1,"//My userid= 4dfa58eca3f7514a2c02f9e0"]],"start1":0,"start2":0,"length1":0,"length2":37}]],"length":37,"saved":false}
+{"ts":1354229496536,"patch":[[{"diffs":[[0,"2c02f9e0"],[1,"\n\nvar Bot = require('ttapi');\nvar bot = new Bot(AUTH, USERID, ROOMID);\n\nbot.on('speak', function (data) {\n  // Respond to \"/hello\" command\n  if (data.text.match(/^\\/hello$/)) {\n    bot.speak('Hey! How are you @'+data.name+' ?');\n  }\n});"]],"start1":29,"start2":29,"length1":8,"length2":244}]],"length":273,"saved":false}
+{"ts":1354229628773,"patch":[[{"diffs":[[0,"02f9e0\n\n"],[1,"v\n\n"],[0,"var Bot "]],"start1":31,"start2":31,"length1":16,"length2":19}]],"length":276,"saved":false}
+{"ts":1354229630137,"patch":[[{"diffs":[[0,"2f9e0\n\nv"],[1,"ar auth"],[0,"\n\nvar Bo"]],"start1":32,"start2":32,"length1":16,"length2":23}]],"length":283,"saved":false}
+{"ts":1354229631070,"patch":[[{"diffs":[[0,"var auth"],[1,"="],[0,"\n\nvar Bo"]],"start1":39,"start2":39,"length1":16,"length2":17}]],"length":284,"saved":false}
+{"ts":1354229632204,"patch":[[{"diffs":[[0,"ar auth="],[1,"\"auth+live+7b0f6937a1bee032dea90f584c45195a84bd2512\""],[0,"\n\nvar Bo"]],"start1":40,"start2":40,"length1":16,"length2":68}]],"length":336,"saved":false}
+{"ts":1354229658381,"patch":[[{"diffs":[[0,"4bd2512\""],[1,"\nvar userid = "],[0,"\n\nvar Bo"]],"start1":92,"start2":92,"length1":16,"length2":30}]],"length":350,"saved":false}
+{"ts":1354229659630,"patch":[[{"diffs":[[0,"serid = "],[1,"\"4dfa58eca3f7514a2c02f9e0\""],[0,"\n\nvar Bo"]],"start1":106,"start2":106,"length1":16,"length2":42}]],"length":376,"saved":false}
+{"ts":1354229662525,"patch":[[{"diffs":[[0,"var auth"],[-1,"="],[1," = "],[0,"\"auth+li"]],"start1":39,"start2":39,"length1":17,"length2":19}]],"length":378,"saved":false}
+{"ts":1354229672775,"patch":[[{"diffs":[[0,"2f9e0\"\n\n"],[1,"\n"],[0,"var Bot "]],"start1":136,"start2":136,"length1":16,"length2":17}]],"length":379,"saved":false}
+{"ts":1354229674429,"patch":[[{"diffs":[[0,"4bd2512\""],[1,";"],[0,"\nvar use"]],"start1":94,"start2":94,"length1":16,"length2":17},{"diffs":[[0,"c02f9e0\""],[1,";"],[0,"\n\n\nvar B"]],"start1":135,"start2":135,"length1":16,"length2":17}]],"length":381,"saved":false}
+{"ts":1354229679362,"patch":[[{"diffs":[[0,"2f9e0\";\n"],[1,"var altnation = \"4ed59c3e14169c686e41eb9a\""],[0,"\n\nvar Bo"]],"start1":137,"start2":137,"length1":16,"length2":58}]],"length":423,"saved":false}
+{"ts":1354229680721,"patch":[[{"diffs":[[0,"e41eb9a\""],[1,";"],[0,"\n\nvar Bo"]],"start1":179,"start2":179,"length1":16,"length2":17}]],"length":424,"saved":false}
+{"ts":1354229685363,"patch":[[{"diffs":[[0,"Bot("],[-1,"AUTH"],[1,"auth"],[0,", US"]],"start1":232,"start2":232,"length1":12,"length2":12}]],"length":424,"saved":false}
+{"ts":1354229688228,"patch":[[{"diffs":[[0,"th, "],[-1,"USERID"],[0,", RO"]],"start1":238,"start2":238,"length1":14,"length2":8}]],"length":418,"saved":false}
+{"ts":1354229783766,"patch":[[{"diffs":[[0," = \""],[-1,"4dfa58eca3f7514a2c02f9e0"],[1,"50b7e7e7aaa5cd204cce4337"],[0,"\";\nv"]],"start1":114,"start2":114,"length1":32,"length2":32}]],"length":418,"saved":false}
+{"ts":1354229786517,"patch":[[{"diffs":[[0,"t(auth, "],[1,"userid"],[0,", ROOMID"]],"start1":234,"start2":234,"length1":16,"length2":22}]],"length":424,"saved":false}
+{"ts":1354229790091,"patch":[[{"diffs":[[0,"id, "],[-1,"ROOMID"],[1,"altnation"],[0,");\n\n"]],"start1":246,"start2":246,"length1":14,"length2":17}]],"length":427,"saved":false}
+{"ts":1354229796521,"patch":[[{"diffs":[[0,"bot."],[-1,"on('speak', function (data) {\n  // Respond to \"/hello\" command\n  if (data.text.match(/^\\/hello$/)) {\n    bot.speak('Hey! How are you @'+data.name+' ?');\n  }\n});"]],"start1":263,"start2":263,"length1":164,"length2":4}]],"length":267,"saved":false}
+{"ts":1354229799066,"patch":[[{"diffs":[[0,");\n\nbot."],[1,"stalk"]],"start1":259,"start2":259,"length1":8,"length2":13}]],"length":272,"saved":false}
+{"ts":1354229807743,"patch":[[{"diffs":[[0,"2\";\nvar "],[-1,"user"],[1,"bot"],[0,"id = \"50"]],"start1":100,"start2":100,"length1":20,"length2":19}]],"length":271,"saved":false}
+{"ts":1354229814206,"patch":[[{"diffs":[[0,"41eb9a\";"],[1,"\nvar myid = \"4dfa58eca3f7514a2c02f9e0\";"],[0,"\n\nvar Bo"]],"start1":179,"start2":179,"length1":16,"length2":55}]],"length":310,"saved":false}
+{"ts":1354229816483,"patch":[[{"diffs":[[0,"ot.stalk"],[1,"(m)"]],"start1":302,"start2":302,"length1":8,"length2":11}]],"length":313,"saved":false}
+{"ts":1354229817656,"patch":[[{"diffs":[[0,".stalk(m"],[1,"yid, "],[0,")"]],"start1":304,"start2":304,"length1":9,"length2":14}]],"length":318,"saved":false}
+{"ts":1354229820909,"patch":[[{"diffs":[[0,"k(myid, "],[1,"function(info) {\n    }"],[0,")"]],"start1":309,"start2":309,"length1":9,"length2":31}]],"length":340,"saved":false}
+{"ts":1354229821716,"patch":[[{"diffs":[[0,") {\n    "],[1,"\n"],[0,"})"]],"start1":330,"start2":330,"length1":10,"length2":11}]],"length":341,"saved":false}
+{"ts":1354229823410,"patch":[[{"diffs":[[0,"\n    \n})"],[1,";"]],"start1":333,"start2":333,"length1":8,"length2":9}]],"length":342,"saved":false}
+{"ts":1354229825957,"patch":[[{"diffs":[[0,"o) {\n   "],[1,"console.log"],[0," \n});"]],"start1":329,"start2":329,"length1":13,"length2":24}]],"length":353,"saved":false}
+{"ts":1354229828657,"patch":[[{"diffs":[[0,"sole.log"],[1,"(info);"],[0," \n});"]],"start1":340,"start2":340,"length1":13,"length2":20}]],"length":360,"saved":false}
+{"ts":1354229841181,"patch":[[{"diffs":[[0,"t(auth, "],[-1,"user"],[1,"bot"],[0,"id, altn"]],"start1":272,"start2":272,"length1":20,"length2":19}]],"length":359,"saved":false}
+{"ts":1354229880879,"patch":[[{"diffs":[[0,"tion);\n\n"],[1,"bot.on('ready')\n"],[0,"bot.stal"]],"start1":292,"start2":292,"length1":16,"length2":32}]],"length":375,"saved":false}
+{"ts":1354229883303,"patch":[[{"diffs":[[0,"('ready'"],[1,", functon() {}"],[0,")\nbot.st"]],"start1":306,"start2":306,"length1":16,"length2":30}]],"length":389,"saved":false}
+{"ts":1354229886141,"patch":[[{"diffs":[[0,"ton() {}"],[-1,")"],[0,"\nbot.sta"]],"start1":320,"start2":320,"length1":17,"length2":16}]],"length":388,"saved":false}
+{"ts":1354229887290,"patch":[[{"diffs":[[0,"o); \n});"],[1,"\n}"]],"start1":380,"start2":380,"length1":8,"length2":10}]],"length":390,"saved":false}
+{"ts":1354229888533,"patch":[[{"diffs":[[0,"; \n});\n}"],[1,");"]],"start1":382,"start2":382,"length1":8,"length2":10}]],"length":392,"saved":false}
+{"ts":1354229890665,"patch":[[{"diffs":[[0,"on() {}\n"],[1,"    "],[0,"bot.stal"]],"start1":321,"start2":321,"length1":16,"length2":20},{"diffs":[[0,"info) {\n"],[1,"    "],[0,"   conso"]],"start1":358,"start2":358,"length1":16,"length2":20},{"diffs":[[0,"info); \n"],[1,"    "],[0,"});\n});"]],"start1":385,"start2":385,"length1":15,"length2":19}]],"length":404,"saved":false}
+{"ts":1354229895293,"patch":[[{"diffs":[[0,"cton() {"],[-1,"}"],[0,"\n    bot"]],"start1":319,"start2":319,"length1":17,"length2":16}]],"length":403,"saved":false}
+{"ts":1354229900403,"patch":[[{"diffs":[[0,"', funct"],[1,"i"],[0,"on() {\n "]],"start1":313,"start2":313,"length1":16,"length2":17}]],"length":404,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1354230042977,"patch":[[{"diffs":[[0,"bot."],[-1,"stalk(myid, "],[1,"roomInfo("],[0,"func"]],"start1":333,"start2":333,"length1":20,"length2":17}]],"length":401,"saved":false}
+{"ts":1354230236849,"patch":[[{"diffs":[[0,"e4337\";\n"],[1,"//"],[0,"var altn"]],"start1":136,"start2":136,"length1":16,"length2":18},{"diffs":[[0,"1eb9a\";\n"],[1,"var alt\n"],[0,"var myid"]],"start1":182,"start2":182,"length1":16,"length2":24}]],"length":411,"saved":false}
+{"ts":1354230241780,"patch":[[{"diffs":[[0,"\nvar alt"],[1,"nation = \"50b7e9c92e38176b28093326\";"],[0,"\nvar myi"]],"start1":189,"start2":189,"length1":16,"length2":52}]],"length":447,"saved":false}
+{"ts":1354230317681,"patch":[[{"diffs":[[0,"room"],[-1,"Info("],[1,"Register(altnation, "],[0,"funct"],[-1,"i"],[0,"on("],[-1,"info"],[0,") {\n"]],"start1":383,"start2":383,"length1":26,"length2":36},{"diffs":[[0,"    "],[-1,"console.log(info);"],[0," "],[1,"\n"],[0,"\n    })"],[-1,";"],[0,"\n});"]],"start1":422,"start2":422,"length1":35,"length2":17}]],"length":439,"saved":false}
+{"ts":1354230318751,"patch":[[{"diffs":[[0,"        "],[-1,"\n"],[1,"conso"],[0,"\n    })\n"]],"start1":419,"start2":419,"length1":17,"length2":21}]],"length":443,"saved":false}
+{"ts":1354230319769,"patch":[[{"diffs":[[0,"   conso"],[1,"le.log"],[0,"\n    })\n"]],"start1":424,"start2":424,"length1":16,"length2":22}]],"length":449,"saved":false}
+{"ts":1354230322496,"patch":[[{"diffs":[[0,"sole.log"],[1,"(\"registered\");"],[0,"\n    })\n"]],"start1":430,"start2":430,"length1":16,"length2":31}]],"length":464,"saved":false}
+{"ts":1354230327833,"patch":[[{"diffs":[[0,"n, funct"],[1,"i"],[0,"on() {\n "]],"start1":404,"start2":404,"length1":16,"length2":17}]],"length":465,"saved":false}
+{"ts":1354230348398,"patch":[[{"diffs":[[0,"unction() {\n"],[1,"    console.log(\"\")\n"],[0,"    bot.room"]],"start1":363,"start2":363,"length1":24,"length2":44}]],"length":485,"saved":false}
+{"ts":1354230350304,"patch":[[{"diffs":[[0,"le.log(\""],[1,"ready"],[0,"\")"],[1,";"],[0,"\n    bot"]],"start1":384,"start2":384,"length1":18,"length2":24}]],"length":491,"saved":false}
+{"ts":1354230406784,"patch":[[{"diffs":[[0,"  })\n});"],[1,"*/"]],"start1":483,"start2":483,"length1":8,"length2":10}]],"length":493,"saved":false}
+{"ts":1354230410298,"patch":[[{"diffs":[[0,"f9e0\";\n\n"],[1,"/*"],[0,"var Bot "]],"start1":266,"start2":266,"length1":16,"length2":18}]],"length":495,"saved":false}
+{"ts":1354230438764,"patch":[[{"diffs":[[0,"})\n});*/"],[1,"\n\nvar bot = new Bot(AUTH, USERID, ROOMID);\n\nbot.on('speak', function (data) {\n  // Respond to \"/hello\" command\n  if (data.text.match(/^\\/hello$/)) {\n    bot.speak('Hey! How are you @'+data.name+' ?');\n  }\n});"]],"start1":487,"start2":487,"length1":8,"length2":216}]],"length":703,"saved":false}
+{"ts":1354230443229,"patch":[[{"diffs":[[0,"Bot("],[-1,"AUTH"],[1,"auth"],[0,", US"]],"start1":511,"start2":511,"length1":12,"length2":12}]],"length":703,"saved":false}
+{"ts":1354230445875,"patch":[[{"diffs":[[0,"th, "],[-1,"USERID"],[1,"boti"],[0,", RO"]],"start1":517,"start2":517,"length1":14,"length2":12}]],"length":701,"saved":false}
+{"ts":1354230446737,"patch":[[{"diffs":[[0,"th, boti"],[1,"d"],[0,", ROOMID"]],"start1":517,"start2":517,"length1":16,"length2":17}]],"length":702,"saved":false}
+{"ts":1354230450311,"patch":[[{"diffs":[[0,"id, "],[-1,"ROOMID"],[1,"altnation"],[0,");\n\n"]],"start1":524,"start2":524,"length1":14,"length2":17}]],"length":705,"saved":false}
+{"ts":1354230458947,"patch":[[{"diffs":[[0,"\";\n\n"],[-1,"/*"],[0,"var "]],"start1":270,"start2":270,"length1":10,"length2":8},{"diffs":[[0,"tapi');\n"],[1,"/"],[0,"var bot "]],"start1":294,"start2":294,"length1":16,"length2":17}]],"length":704,"saved":false}
+{"ts":1354230460132,"patch":[[{"diffs":[[0,"api');\n/"],[1,"*"],[0,"var bot "]],"start1":295,"start2":295,"length1":16,"length2":17}]],"length":705,"saved":false}
+{"ts":1354230557356,"patch":[[{"diffs":[[0," = \""],[-1,"50b7e9c92e38176b28093326"],[1,"4e77b38014169c322d7bcf47"],[0,"\";\nv"]],"start1":203,"start2":203,"length1":32,"length2":32}]],"length":705,"saved":false}
