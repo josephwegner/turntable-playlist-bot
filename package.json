@@ -1,7 +1,15 @@
 {
+  "name": "TurntableBot",
+  "description": "The premier turntable bot",
+  "version": "0.0.1",
+  "private": true,
   "dependencies": {
-    "ttapi": {
-      "version": "1.5.1"
-    }
+    "mongoose": "3.4.0"
+    "ttapi": "1.5.1",
+    "mongo": "~0.1.0"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
   }
 }
